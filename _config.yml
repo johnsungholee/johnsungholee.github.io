@@ -1,2 +1,3 @@
 title: John Lee
 theme: minima
+permalink: /blog/:year/:month/:day/:title
