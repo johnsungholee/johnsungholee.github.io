@@ -6,6 +6,6 @@ title: John Lee's Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ posts.url }}" title="{{ posts.title }}">{{ posts.title }}</a></li>
+	    <li><span>{{ posts.date | date_to_string }}</span> » <a href="{{ posts.url }}" title="{{ posts.title }}">{{ posts.title }}</a></li>
 	  {% endfor %}
 	</ul>
